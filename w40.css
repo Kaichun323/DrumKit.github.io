@@ -1,0 +1,30 @@
+body{
+    background-image: url("background.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+.music{
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.key{
+    border: 5px solid rgb(224, 216, 136);
+    padding: 15px 15px;
+    margin: 15px;
+    color: rgb(217, 237, 205);
+    background: rgba(0,0,0,0.5);
+    width: 50px;
+    transition: all 0.3s;      /*過渡*/
+}
+kbd{
+    font-size: 25px;
+    display: block;
+}
+.playing{
+    transform: scale(1.1);      /*放大*/
+    border-color: hsl(130, 59%, 71%);
+}
